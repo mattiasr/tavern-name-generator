@@ -2,7 +2,10 @@
 export FLASK_APP=keg_api
 export FLASK_ENV=development
 
-. venv/bin/activate
+if [ -f venv ]; then
+	. venv/bin/activate
+fi
+
 pip install -r requirements.txt
 
 flask init-db
