@@ -23,7 +23,7 @@ content = {
                 'delimiter': '. Inside, '},
             'tavern_main_activity': {
                 'col': 'main_activity',
-                'delimiter': ' and the owner, who is'},
+                'delimiter': ' and the owner, who is '},
             'tavern_relevant_activity': {
                 'col': 'relevant_activity',
                 'delimiter': '. Tonight\'s menu seems to be '},
